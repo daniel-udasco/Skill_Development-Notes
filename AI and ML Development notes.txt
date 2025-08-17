@@ -1,10 +1,10 @@
 -------------------TensorFlow_2.0_Complete_Course_Python_Neural_Networks_for_Beginners_Tutorial[Finished:??/??/2025]-------------------
 
 TensorFlow timestamp
-Timestamp: ??:??:??
+Timestamp: 00:14:25
 -------------------
 
-??/??/2025
+08/18/2025
 Module 1: Machine Learning Fundamentals
 
 AI - Effort to automate intellectual tasks performed by humans.
@@ -15,7 +15,13 @@ Traditional vs ML programming:
 Traditional - Data/Input + Rules/Steps = Answers/Output
 ML programming - Data/Input + Answers/Output = Rules/Steps
 
-wh
+Deep Learning (NN) - A form of ML that uses layered representation of data.
+
+Machine Learning vs Deep Learning:
+Machine Learning - have 2 layers: Input and Output.
+Deep Learning - have multiple layers in between them (transformers).
+
+
 
 
 
