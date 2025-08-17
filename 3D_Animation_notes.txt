@@ -1,0 +1,174 @@
+------------------BlenderGuru:Blender-4.0-Beginner-Donut-Tutorial[Finished:??/??/2025]-------------------
+
+Donut 4.0 timestamp
+Part 13: 25:06
+-------------------
+
+??/??/2025
+*write entries here
+
+
+
+09/06/2024
+Before final rendering, check some things first. Here are some of the following that you should do [Part 4]:
+- Add Variance to the detail. (ex. add few round sprinkles to long sprinkles donut via freehanded)
+- Adjust World Setting Properties to a setting you want. ((ex. Sky Texture | Morning) Air & Dust, Ozone, Optimize Sun settings, etc.)
+- Check if Camera settings is correct. Select Camera > Object Data Properties > Adjust [Depth of Field, Focal Length, Motion Blur (In Render Properties), etc]
+
+
+
+08/30/2024
+Before final rendering, check some things first. Here are some of the following that you should do [Part 3]:
+- Check for exposure range (if its too high or low): In Render Properties > Color Management > View Transform > Change AgX (default) to False Color > Look for & adjust exposure ranges that are too high/low > Once done Change View Transform to AgX (default).
+- Adjust colors in materials (if its oversaturated, too bright, etc.).
+- Look for small details ((ex. sprinkles) size, amount, distribution, composition, symmetry) and adjust/balance it.
+
+
+
+08/28/2024
+Before final rendering, check some things first. Here are some of the following that you should do [Part 2]:
+- Look for empty space and adjust it.
+- Look for any floating objects and adjust it.
+
+Inverse Square Law - distance increase, intensity decrease. Also in lighting, if something is twice as close to something, it is 4x as bright.
+
+
+
+08/19/2024
+Output File Format tips:
+PNG - default (for screens)
+TIFF - better quality, but big size (for prints)
+JPEG - terrible compression (don't use this)
+
+Output Color Depth tips:
+8bit - default
+16bit - more range, but big size (good for color grading)
+
+Before final rendering, check some things first. Here are some of the following that you should do [Part 1]:
+- Turn all normals facing on camera: In Viewport Shading > Viewport Overlays > Toggle ON Face Orientation > Recalculate Normals (Turn all red to blue normal) > Once done Toggle OFF Face Orientation.
+- Remove rogue/unwanted objects in render: In layers tab > Toggle Disable in Renders (or if you want also Hide in Viewport) for all unwanted objects (ex. Sprinkles parent/reference object).
+
+
+
+08/13/2024
+Denoiser tip - Denoiser is a great tool, but it looks bad in animation with a very low sample count, as it cause different variation in every frame that creates splotchy patters.
+
+256 - 300 sample w/ denoiser - minimum amount of samples for work, fully 3D animation, & animations like Blender 4.0  Donut.
+
+Noise Threshold / Adaptive sampling - scans the image for high noise and low noise areas, then it performs more sample in the high noise area (which reduces noise in that area).
+
+Noise Threshold On w/ Denoise - faster render times & more efficient, but some details may get splotchy quality.
+Noise Threshold Off w/ Denoise - best quality, but slower render times & can't utilize a new technology which is Adaptive Sampling.
+Recommended setting: Denoiser w/ Adaptive Sampling.
+
+
+
+08/12/2024
+H: i - insert keyframe
+
+Pivot = central point
+
+Empty in Animation - When doing animation/camera works, adding empty in the scene is great way for the camera to focus/center to it.
+
+Dope Sheet - more advanced timeline editor for animations.
+
+Graph Editor - more advanced editor than Dope Sheet for animation.
+
+H: Home (Graph Editor, Timeline, etc) - resets the view to fit in screen.
+
+Normalize (Graph Editor) - Display curves in normalized range from -1 to 1, for easier editing of multiple curves with different ranges.
+
+24 FPS - Cinematic / Films
+30 FPS - Standard / Internet / Youtube / TV
+60 FPS - 3D contents / High Budget Animations
+
+
+
+08/11/2024
+Composite node - what's saved into your render (final image).
+Viewer node - displayed what is in the backdrop (temporary image).
+
+Postprocessing tip - don't get obsessed with it. Too much postprocessing can make your renders Overkill/Exaggerated.
+
+Toggle compositor effects that applies to rendered view even if you're editing (Live Compositor) - in Viewport Shading > In Compositor > Click Always or Camera (if you only want it to appear in camera view).
+
+If you need a basic guide of Compositing you can see the compositing settings of Blender 4.0 donut tutorial.
+
+If you want to disable compositor effects in final render. in Output Properties > Post Processing tab > Uncheck Compositing box.
+
+
+
+08/09/2024
+Compositor - add effects to the final render.
+^ Uses: Postprocessing, Color grade, Stylized renders, Adding glare, etc.
+
+H: ctrl + shift + left click the Render Layers node. - Viewer node + backdrop in compositing workspace
+
+H: alt + middle mouse button. - Move the backdrop in compositing workspace.
+
+H: alt + v (zoom in) / v (zoom out) - Zoom in/out backdrop in compositing workspace.
+
+In render properties>Color management (especially look) is great for color grading.
+
+Best View Transform (Color Management) - AgX (default).
+
+
+
+08/06/2024
+(*update) For Lighting - Black Materials objects (e.g. black plane) are used for light to absorbed; not bounce. Use lightweight material type like (Diffuse BSDF) for low processing needed.
+
+
+
+07/29/2024
+For Lighting - Black Materials objects (e.g. black plane) are used for light to absorbed; not bounce.
+
+Import .blend files (objects dl from internet) - append (if only one object you want to import, select append/collection)
+
+Append - make a full copy of object / duplicate (w/out changing it).
+Link - change is occurring in to that file.
+
+
+
+07/28/2024
+Denoiser: Optix vs Open Image Denoise
+
+1. Open Image Denoise - better quality but slower than Optix
+^ Uses: For Large Renders that quality matters
+
+2. Optix - better speed (esp' in final rendering), most advanced denoiser but worse quality than Open Image Denoise
+^ Uses: For quick renders and prototyping
+
+Color Management (in render prop's) - adjust lighting w/out rendering again.
+
+
+
+07/27/2024
+H: r(2x) - Trackball rotation
+
+
+
+07/26/2024
+metallic materials - can only be 1 and 0 (only few rare materials are in between those value)
+
+
+
+
+
+
+
+
+-------------------Researching-------------------
+08/10/2020
+80-20 rule - you're going to use 20% of the features 80% of the time
+
+
+
+Shortcuts:
+H: = Hotkey
+
+
+
+
+
+----Learning 3D Animation----
+Started on: 06/10/2020

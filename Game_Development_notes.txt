@@ -1,0 +1,242 @@
+-------------------FreeCodeCamp-Responsive-Web-Design:Learn-HTML-by-Building-a-Cat-Photo-App[Finished:??/??/2025]-------------------
+
+??/??/2025
+*write entries here
+
+
+
+
+
+------------------GDQuest:Learn-Godot-GDScript[Finished:12/23/2024]-------------------
+
+12/23/2024
+Dynamically-typed language - you can just write variables, assign value with number, and assign with another value of different type.
+
+Type error - error caused by wrong data types used in a function.
+
+Type hints - let computer know value type you want for variables and report errors before running the code.
+^ Ex. var variable_name: Type = value
+^ Ex. var cell_size: Vector2 = Vector2(50.0, 50.0)
+^ Uses: prevent major type errors (computer can report issues as you write the code)... Improve readability of code... You will learn types much faster (excellent for learning).
+
+Type inference - computer can figure out the type of a variable for you.
+^ Ex. var cell_size := Vector(50.0, 50.0)
+
+
+
+08/30/2024
+.keys() - To get the list of keys in the dictionary.
+
+Value type - Computer uses this to know which op's and func you can use with them.
+
+concatenate - mix 2 or more variables or values.
+
+You can concatenate 2 strings with (+) operator.
+^ Ex. print("Health: " + health) {but this causes error because Godot can't add string and int (incompatible)}
+
+To convert other values to string use str() (or other type) and put the variable you want to convert inside the parenthesis.
+^ Ex. print("Health: " + str(health))
+
+To avoid number/values related bugs always use int in games.
+
+You can't directly add/subtract a number to a vector.
+
+operations of 2 whole numbers always result in whole number.
+^ Ex. print(3/2) | o= 1
+operations of 2 decimal numbers always result in decimal numbers.
+^ Ex. print(3.0/2.0) | o= 1.5
+
+
+
+08/28/2024
+Index - used to access one element in an array.
+
+Index [0] - first element in array. Then [1] is second element...
+
+Index [-1] - last element in array. Then [-2] is second to the last element... | Convenient when you need to quickly access elements from the end of the list.
+
+If you try to access an index that doesn't exist, you will get an error, Be careful.
+
+size() - used for knowing the size of the array.
+^ Ex. print(inventory.size())
+
+array.size() - 1 - max index you can access in an array.
+
+dictionary - data structure that allows you to map pairs of value. In the pair, we call the first value a key as we use it to access the second. Each key points to a value.
+^ Ex. var dictionary = {key1: value_1...}
+^ Uses: key = name of an item & value = amount of it.
+^ Ex. var inventory = {"coins": 7...}
+
+Key could be a string, number, vector, etc.
+
+Accessing values of keys format: dictionary[key]
+
+Changing values directly for adding/removing items.
+^ Ex. inventory["coins"] += 1
+
+
+
+08/21/2024
+String format in GDScript:
+^ Ex. var my_name = "Daniel" {"x"}
+Strings can also be useful for chaining animations.
+^ var combo = ["jump", "attack"...]
+func perform_combo():
+	for action in combo:
+		play_animation(action)
+
+GDScript has an built-in functions.
+^ Ex. round(3.7) | o = 4
+
+lerp() {linear interpolate} - calculates and returns a weighter average between 2 values. Used for smoothing movements.
+
+append() - add/move to
+pop_front() - remove
+pop_back() - reveal
+
+#... - we're completing the function's code.
+
+
+
+08/19/2024
+for format in GDScript:
+for number in range(3):
+	{*indent}...
+
+range() - Godot helper function.
+range(n) creates a list of numbers from 0 to n - 1 (ex. range (3) = [0, 1, 2]).
+
+Arrays - list of values, numbers, etc.
+Arrays usage - Player inventory items, high scores, finding & following path, etc.
+
+Arrays format in GDScript:
+^ Ex. [value1, value2, ...]
+
+in - allows to check if a value exists in an array.
+append() - appends a new value at the end of the array.
+
+
+
+08/18/2024
+Vector (Vector2 in Godot) - quantity with a magnitude of direction. Represent a character's movement speed and direction, calculate the distance to a target, etc.
+
+Using x & y:
+	position.x += 0.2
+	position.y += 0.5
+Using Vector2:
+	position += Vector2(0.2, 0.5)
+
+for loops - safest type of loop.
+
+while loops usage - every time you need to loop an UNKNOWN number of times. 
+^ Ex. A game running at 60 FPS.
+
+If you're not careful loops can run infinitely which will cause freeze in Application or PC.
+
+while format in GDScript:
+while number < 1:
+	{*indent}...
+
+
+
+08/13/2024
+Assigning variable/label is very important, so the code will look readable.
+^ Ex. rotate (4 * delta)
+use this instead.
+var angular_speed = 4
+rotate(angular_speed * delta)
+
+Script-wide variables - Functions can use any variables defined outside of functions.
+
+If we define a variable inside of a function, only that function can use it.
+
+Conditions/Conditional - run actions selectively. If a condition is met, the computer will run the instructions. Otherwise, those instructions will not run at all.
+
+To define a condition, we use if & else statement.
+
+pass - prevents errors in the code when a line cannot be empty. Use it when you don't know what to write yet.
+
+When coding levels:
+Addition - linear growth.
+Multiplication - exponential growth.
+
+
+
+08/13/2024
+Delta - time difference (time passed since the previous frame in seconds). It helps to make the game experience consistent for everyone.
+^ To apply delta, you need to multiply your speed values by it.
+^ Ex. func _process(delta):
+	{*indent} rotate(3.0 * delta)
+
+Multiplying time-sensitive values by delta makes them time-dependent rather that frame-dependent.
+
+FPS and _process() relationship.
+^ Ex. 60fps = Everything in the game process/update 60 times each secons.
+
+_process() ( _update() in other engines) - makes a function always running/working (every frame).
+
+-= - subtracts amount from health.
++= - adds amount from health.
+*= - multiplies amount from health.
+/= - divides amount from health.
+^ Ex. health -= amount (shorter) / health = health - amount (equivalent but longer)
+
+Variable also works using strings by using "double quotation marks", but it's not recommended.
+
+var - Variable. To define a function write in this format:
+^ Ex. var health = 100
+
+GDScript language is Case-sensitive.
+
+
+
+08/12/2024
+Functions - sequences of instructions we give a name.
+
+Parameters/Argument - text inside parenthesis ().
+
+end of the line Colon (:) - used to define a new code block.
+
+variables - values that vary over time.
+
+Member variables - variables attached to specific value type. Aka. properties or fields of the vector.
+^ Ex. vector's x and y sub-variables.
+
+Sub-variables - to access, you add a dot (.) after the variable name.
+
+
+
+08/11/2024
+GDScript is like JavaScript & Python combined.
+
+In GDScript, to define a function write in this format:
+^ Ex. func run():
+	{*tab/indention} hide()
+
+Tab/Indentation - Important in GDScript. Used to know which lines are part of the function.
+
+In the standard Cartesian coordinate system, the positive y-axis points upwards, and the positive x-axis points to the right. However, in computer graphics, the origin (0,0) is typically placed in the top-left corner of the screen or game window, with the positive y-axis pointing downwards.
+^ Ans: This coordinate system convention is used because it aligns with the way digital displays work, where the top-left pixel is the starting point, and subsequent pixels are rendered row by row, from top to bottom.
+
+
+
+
+
+
+
+
+-------------------Researching-------------------
+
+08/10/2024
+TL;DR:
+Godot ---> 2D
+Unity ---> 3D
+
+If you are 2D focused, Godot will be nicer. 3d in unity is simpler. But whichever one you learn will make learning the other much faster, so you can't really go wrong.
+
+
+
+
+
+----Learning Game Development----
+Started on: 08/10/2024

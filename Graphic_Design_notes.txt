@@ -1,0 +1,62 @@
+-------------------General(Mixed)_Projects-------------------
+
+??/??/2025
+*write entries here
+
+
+
+08/19/2024
+Illustrator Tip: Custom Color Strip
+- Make a color strip made of shapes
+- Drag it to New Brush.
+- Select Art Brush.
+- Select Stretch Between Guides.
+- Make the guide thin.
+
+
+
+08/13/2024
+*Creating Series vs Parallel infographic.
+
+08/12/2024
+*Practicing Cultist Simulator art style.
+
+08/11/2024
+*Practicing Cultist Simulator art style.
+
+
+
+08/09/2024
+Illustrator Tip: Exporting
+Default format for exporting AI projects is .PDF (Adobe PDF).
+Use only other Format for its proper usage/purpose:
+^ Ex. .PNG for general purposes and compatibility or .SVG for vector shapes.
+
+
+
+07/29/2024
+1 point = 1.33...pixels
+
+Illustrator Tip: Layering
+Layer - overall layer (overall object)
+Sublayer - layers that make-up the layer (lines, curves, etc.)
+Using layer and sublayer is very important in illustrator.
+
+
+
+
+
+
+
+
+-------------------Researching-------------------
+
+08/07/2024
+"Good artists borrow, Great artists steal." When creating original work or practicing/prototyping, it is great to copy color scheme, layout, elements, etc.
+
+
+
+
+
+----Learning Graphic Design----
+Started on: ??/??/2017

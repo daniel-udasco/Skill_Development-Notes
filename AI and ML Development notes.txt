@@ -1,0 +1,37 @@
+-------------------TensorFlow_2.0_Complete_Course_Python_Neural_Networks_for_Beginners_Tutorial[Finished:??/??/2025]-------------------
+
+TensorFlow timestamp
+Timestamp: ??:??:??
+-------------------
+
+??/??/2025
+Module 1: Machine Learning Fundamentals
+
+AI - Effort to automate intellectual tasks performed by humans.
+
+Machine Learning - Rather than giving the program the rules (Traditional Programming), An algorithm find/generate the rules for us.
+
+Traditional vs ML programming:
+Traditional - Data/Input + Rules/Steps = Answers/Output
+ML programming - Data/Input + Answers/Output = Rules/Steps
+
+wh
+
+
+
+
+
+
+
+
+-------------------Researching-------------------
+
+??/??/2025
+*write entries here
+
+
+
+
+
+----Learning AI Development----
+Started on: 08/16/2025
