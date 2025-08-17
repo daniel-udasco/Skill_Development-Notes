@@ -1,0 +1,39 @@
+updated version (with main instead of master) (new convention)
+
+bash commands:
+cd "*insert directory"
+ls (check list)
+
+upload directory to git:
+git basic commands:
+git init
+git add .
+git remote add origin (*insert github link)
+*rename, delete master (automatic delete)
+git commit -m 'initialize'
+*rebase
+git push origin main
+git pull origin main
+
+check:
+git checkout main
+git checkout -b new-branch
+git log
+git branch
+
+
+
+renaming master to main:
+git branch -m master main
+
+delete master:
+git push origin --delete master
+
+if git push origin main error occurs:
+git pull origin main --rebase
+
+
+
+GitHub to local repository (reverse process)
+cd (*insert directory)
+git clone https://github.com/username/repo-name.git (from GitHub)
