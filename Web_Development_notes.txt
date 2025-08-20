@@ -1,7 +1,60 @@
--------------------FreeCodeCamp-Responsive-Web-Design:Learn-HTML-by-Building-a-Cat-Photo-App[Finished:??/??/2025]-------------------
+-------------------Frameworks_Course???[Finished:??/??/2025]-------------------
 
 ??/??/2025
-*write entries here
+*write here
+
+
+
+
+
+-------------------FreeCodeCamp-Responsive-Web-Design-CERTIFICATION-PROJECTS????:????[Finished:??/??/2025]-------------------
+
+??/??/2025
+*write here
+
+
+
+
+
+-------------------FreeCodeCamp-Responsive-Web-Design:Learn-Basic-CSS-by-Building-a-Cafe-Menu[Finished:08/20/2025]-------------------
+
+08/20/2025
+Margin vs Padding:
+Margin - space OUTSIDE element, separating it from other elements.
+Padding - space INSIDE element, between content and border.
+
+hr (element) - horizontal rule. used to break between paragraph level elements.
+
+pseudo-selector [a:event] - a:visited for visited links, a:hover for hovering, a:active for the link being clicked, etc.
+
+You can use negative values in CSS using (-).
+
+
+
+08/19/2025
+CSS format:
+element {
+ property: value;
+}
+
+Link external CSS file:
+<link rel="stylesheet" href="styles.css">
+
+Similar styling for Desktops and Mobile:
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+div (element) - mainly for design layout purposes.
+
+Commenting in CSS:
+/* comments here */
+
+type selector [name] - used to target common types (h1, hr, img, etc).
+
+id selector [#name] - used to target a unique element (only one) with an id attribute.
+
+class selector [.name] - used to target multiple elements with an class attribute.
+
+article (element) - contains multiple elements with related info.
 
 
 
