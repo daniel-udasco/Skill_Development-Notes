@@ -1,8 +1,108 @@
 -------------------TensorFlow_2.0_Complete_Course_Python_Neural_Networks_for_Beginners_Tutorial[Finished:??/??/2025]-------------------
 
 TensorFlow timestamp
-Timestamp: 00:14:25
+Timestamp: 01:00:00
 -------------------
+
+08/xx/2025
+Module 3: Core Learning Algorithms
+
+*write here
+
+
+
+08/25/2025
+Jupyter vs Colab:
+Jupyter - Local, Offline, advance
+Colab - Cloud-based, Online, with GPU/TPU
+
+Tensor -  generalization of vectors and matrices to potentially higher dimensions. main object passed around through the program.
+
+Tensor Data Types: float32, int32, string, etc.
+
+Creating Tensor Example:
+string = tf.Variable("this is string", tf.string)
+
+rank - aka. degree, number of dimensions involved in the tensor.
+
+rank0_tensor - scalar.
+string = tf.Variable("this is a string", tf.string)
+ 
+rank1_tensor - vector/array.
+rank1_tensor = tf.Variable(["Test", "ok"], tf.string)
+
+rank2_tensor - matrix.
+rank2_tensor = tf.Variable([["test", "ok"], ["test", "yes"]], tf.string)
+
+To determine the rank of a tensor:
+tf.rank(rank2_tensor)
+Output: numpy=(2 | *rank_of_tensor)
+
+Tensor Shapes - amount of elements that exist in each dimension.
+
+To determine the shape of a tensor:
+rank2_tensor.shape
+Output: TensorShape([2, 2] |*shape_of_tensor)
+
+Creating a shape [1,2,3] tensor full of ones:
+tensor1 = tf.ones([1,2,3])
+Output:[[[1. 1. 1.] [1. 1. 1.]]]
+
+Reshape existing data to shape [3,2,1]:
+tensor2 = tf.reshape(tensor1, [2,3,1])
+Output:
+[[[1.]
+  [1.]
+  [1.]]
+ [[1.]
+  [1.]
+  [1.]]]
+
+Reshape tensor to [3,2]:
+tensor3 = tf.reshape(tensor2, [3, -1]) # use [*num, -1] to automatically guess the missing value (x).
+Output:
+[[1. 1.]
+ [1. 1.]
+ [1. 1.]]
+note: the number of elements in reshaped tensor must match the number in the original.
+
+Types of Tensors:
+Variable, Constant, Placeholder, and SparseTensor.
+
+==========End_of_Module_2==========
+
+
+
+08/24/2025
+Module 2: Introduction To TensorFlow
+
+TensorFlow - Open source ML library, used to build ML models and NN without complex math.
+
+Graphs - Defines computation (nodes = ops, edges = data flow).
+
+Executes the graph (runs ops, returns results).
+
+Google Colab - free Jupyter Notebook in the cloud.
+
+Notebook - You can write codes & notes.
+
+
+
+08/23/2025
+Features - Input information (things we have).
+
+Label - output information (we try to predict).
+
+"Data is so important to build AI models."
+
+3 Different kinds of ML:
+Unsupervised Learning - Labeled (output) data. To learn input to output mapping (most common type).
+Supervised Learning - Unlabeled (output) data. To find patterns/groups.
+Reinforcement Learning - No data, but you have agent, environment, and reward. To learn by trial & error & maximize reward.
+
+==========End_of_Module_1==========
+
+
 
 08/18/2025
 Module 1: Machine Learning Fundamentals

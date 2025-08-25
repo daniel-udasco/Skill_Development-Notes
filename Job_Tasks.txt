@@ -1,5 +1,7 @@
 - Learn Notion (for group task collaboration)
 
-- Update LinkedIn Profile
+- Update LinkedIn Profile for Job Application
+
+- Finish TUPV-Website Project and upload it to GitHub
 
 - Customize GitHub Profile Page
