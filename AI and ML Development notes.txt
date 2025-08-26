@@ -4,10 +4,36 @@ TensorFlow timestamp
 Timestamp: 01:00:00
 -------------------
 
-08/xx/2025
+08/27/2025
+*write here
+
+
+
+08/26/2025
 Module 3: Core Learning Algorithms
 
-*write here
+"We need to understand learning Algorithm so that you can use that techniques and combine together to solve unique problems and datasets."
+
+Common and Easiest to use algorithms:
+Linear Regression, Classification, Clustering, and Hidden Markov Models.
+
+Linear Regression - Most basic form of Machine Learning and is used to predict numeric values.
+
+Concept of Linear Regression:
+If data points are related linearly, we can generate a line of best fit for these points and use it.
+
+Line of best fit - a line though scatter plot of data points that best expresses the relationship between those points.
+
+Application of Line of best fit:
+To predict a new data point.
+
+y = mx + b uses in Linear Regression:
+Using the available given data's (m, b, and x)(input) predict/find the missing data/value (y)(output) and vice versa.
+
+Another Example of Linear Regression:
+In different dimension (3d) with (x,y,z) you can predict the missing value of one value for example (x) with the two value (y, z) and vice versa.
+
+www
 
 
 
