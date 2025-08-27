@@ -1,4 +1,4 @@
--------------------FreeCodeCamp-Responsive-Web-Design:Learn-HTML-by-Building-a-Cat-Photo-App[Finished:??/??/2025]-------------------
+-------------------Unity_Essentials-Pathway-App[Finished:??/??/2025]-------------------
 
 ??/??/2025
 *write entries here
@@ -8,6 +8,12 @@
 
 
 ------------------GDQuest:Learn-Godot-GDScript[Finished:12/23/2024]-------------------
+
+08/27/2025
+==========Stopped_using_Godot==========
+Reason: Not industry standard, Not in demand for jobs, and its for hobbyist game developer.
+
+
 
 12/23/2024
 Dynamically-typed language - you can just write variables, assign value with number, and assign with another value of different type.
