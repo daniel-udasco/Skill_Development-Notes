@@ -4,6 +4,11 @@ TensorFlow timestamp
 Timestamp: 01:29:00
 -------------------
 
+08/29/2025
+*write here
+
+
+
 08/28/2025
 data frame (df) - table like data structure.
 
@@ -17,7 +22,10 @@ df.describe() - for statistical analysis of data.
 
 df.shape() - to define the shape of data frame.
 
-www
+Example of generating graph for data's:
+graph for age:
+dftrain.age.hist(bins=20)
+and more...
 
 
 
