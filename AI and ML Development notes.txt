@@ -1,15 +1,23 @@
 -------------------TensorFlow_2.0_Complete_Course_Python_Neural_Networks_for_Beginners_Tutorial[Finished:??/??/2025]-------------------
 
 TensorFlow timestamp
-Timestamp: 01:21:54
+Timestamp: 01:29:00
 -------------------
 
 08/28/2025
 data frame (df) - table like data structure.
 
-df.head - show us first 5 entries and its column in the data set.
+df.head() - show us first 5 entries and its column in the data set.
 
-write here
+df.pop() - removed the column of what's inside the parameter.
+
+df.loc[] - locate specific row of data in that index.
+
+df.describe() - for statistical analysis of data.
+
+df.shape() - to define the shape of data frame.
+
+www
 
 
 
@@ -36,8 +44,6 @@ dftrain = pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/train.
 dfeval = pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/eval.csv') # testing data
 y_train = dftrain.pop('survived')
 y_eval = dfeval.pop('survived')
-
-.csv - Comma-Separated Values
 
 
 
