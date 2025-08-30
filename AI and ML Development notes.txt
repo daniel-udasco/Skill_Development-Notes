@@ -1,11 +1,15 @@
 -------------------TensorFlow_2.0_Complete_Course_Python_Neural_Networks_for_Beginners_Tutorial[Finished:??/??/2025]-------------------
 
 TensorFlow timestamp
-Timestamp: 01:29:00
+Timestamp: 01:29:57
 -------------------
 
-08/29/2025
-*write here
+08/30/2025
+Testing vs Training data:
+training data - what we feed to the model so that it can develop and learn.
+testing data - what we use to evaulate the model and see how well it is performing.
+
+"If we simply test the model on the data that it has already seen we cannot measure its accuracy accurately. We can't be sure that the model hasn't simply memorized our training data. This is why we need our testing and training data to be separate."
 
 
 
